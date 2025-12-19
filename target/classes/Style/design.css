@@ -1,0 +1,111 @@
+/* design.css */
+
+/* General VBox padding */
+.root {
+    -fx-font-family: "Segoe UI", sans-serif;
+    -fx-background-color: #f4f4f9;
+    -fx-padding: 15;
+}
+
+/* Title Label */
+.label {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2c3e50;
+}
+
+/* TableView style */
+.table-view {
+    -fx-background-color: white;
+    -fx-border-color: #dcdcdc;
+    -fx-border-width: 1;
+    -fx-table-cell-border-color: transparent;
+    -fx-padding: 5;
+}
+
+/* Table Header */
+.table-view .column-header-background {
+    -fx-background-color: #2980b9;
+}
+.table-view .column-header, .table-view .filler {
+    /*-fx-background-color: #2980b9;*/
+    -fx-text-fill: white;
+    /*-fx-font-weight: bold;*/
+}
+
+/* Buttons */
+/* Add Transaction Button */
+#addButton {
+    -fx-background-color: green;      /* green */
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-padding: 8 16 8 16;             /* top right bottom left */
+    -fx-background-radius: 8px;
+    -fx-cursor: hand;
+}
+
+#addButton:hover {
+    -fx-background-color: lightgreen;      /* lighter green on hover */
+}
+
+/* Delete Selected Button */
+#deleteButton {
+    -fx-background-color: red;      /* red */
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-padding: 8 16 8 16;
+    -fx-background-radius: 8px;
+    -fx-cursor: hand;
+}
+
+#deleteButton:hover {
+    -fx-background-color: #e74c3c;      /* lighter red on hover */
+}
+
+/* Clear All Button */
+#clearAllButton {
+    -fx-background-color: #f39c12;      /* orange */
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-padding: 8 16 8 16;
+    -fx-background-radius: 8px;
+    -fx-cursor: hand;
+}
+
+#clearAllButton:hover {
+    -fx-background-color: #f1c40f;      /* lighter orange on hover */
+}
+
+/* Category ChoiceBox */
+#categoryBox {
+    -fx-background-color: lightgray;      /* light gray */
+    -fx-border-color: silver;          /* silver border */
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-padding: 4 10 4 10;
+    -fx-font-size: 13px;
+}
+
+#categoryBox:hover {
+    -fx-border-color: darkgray;          /* slightly darker border on hover */
+}
+
+
+/* Danger button (Delete) */
+.danger-button {
+    -fx-background-color: #c0392b;
+    -fx-text-fill: white;
+}
+.danger-button:hover {
+    -fx-background-color: #e74c3c;
+}
+
+/* Net Balance label */
+.net-label {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #34495e;
+}
